@@ -1,1 +1,11 @@
 /* giving the body a dark background to better see the bright colored boxes */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(42, 117, 160);
+    color: white;
+    text-align: center;
+ }
+ 

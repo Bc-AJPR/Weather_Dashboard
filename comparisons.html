@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wather Dash Comparisons</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Weather Dashboard Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <div class="row">
+    <div class="col">
+      <h3 class="text-center">Latitude Analysis Dashboard with Attitude</h3>
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="humidity.html">Humidity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="max_temperature.html">Max-Temperature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wind_speed.html">Wind-Speed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="comparisons.html">Comparisons</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="container">
+    <h3 class="text-center"></h3>
+      <div class="row">
+          <div class="col-lg-6"> <!--Cloudiness-->
+              <div>
+              <a href="cloudiness.html">
+                  <img src="Resources/assets/images/Fig3.png" alt="...">
+              </a>
+              </div>
+              <div class="caption">
+                  <h6>City Latitude Vs. Cloudiness</h6>
+              </div>
+          </div>
+          <div class="col-lg-6"> <!--Humidity-->
+            <div class="thumbnail">
+            <a href="humidity.html">
+                <img src="Resources/assets/images/Fig2.png" alt="...">
+            </a>
+            </div>
+            <div class="caption">
+                <h6>City Latitude Vs. Humidity</h6>
+            </div>
+        </div>
+        <div class="col-lg-6"> <!--Max-Temperature-->
+            <div class="thumbnail">
+            <a href="max_temperature.html">
+                <img src="Resources/assets/images/Fig1.png" alt="...">
+            </a>
+            </div>
+            <div class="caption">
+                <h6>City Latitude Vs. Max-Temperature</h6>
+            </div>
+        </div>
+        <div class="col-lg-6"> <!--Wind-Speed-->
+            <div class="thumbnail">
+            <a href="wind_speed.html">
+                <img src="Resources/assets/images/Fig4.png" alt="...">
+            </a>
+            </div>
+            <div class="caption">
+                <h6>City Latitude Vs. Wind-Speed</h6>
+            </div>
+          </div>
+
+<footer>
+  <div class="footer">Copyright &copy; Andres Pulido 2022</div>
+</footer>  
 </body>
 </html>
