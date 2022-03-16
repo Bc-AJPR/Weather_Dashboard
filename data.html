@@ -7,33 +7,56 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="row">
-    <div class="col"> <!--Nav Bar-->
-      <h3 class="text-center">Latitude Analysis Dashboard with Attitude</h3>
-      <nav class="nav nav-tabs fixed-nav-bar">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="data.html">Data</a>
-          </li>
-          <li class="nav-item dropdown cote">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
+    <div class="row fix-top">
+      <div class="col"> <!--Nav Bar-->
+        <h3 class="text-center">Latitude Analysis Dashboard with Attitude</h3>
+        <nav class="nav nav-tabs fixed-nav-bar navbar-expand-sm">
+          <button
+          type="button"
+          data-toggle ="collapse"
+          data-target = "#navbarNav"
+          class = "navbar-toggler"
+          aria-controls = "navbarNav"
+          aria-expanded = "false"
+          aria-label = "Toggle navigation" >
+            <a class = "cote">
+              Menu
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="nav-link" href="cloudiness.html">Cloudiness</a>
-              <a class="nav-link" href="humidity.html">Humidity</a>
-              <a class="nav-link" href="max_temperature.html">Max-Temperature</a>
-              <a class="nav-link" href="wind_speed.html">Wind-Speed</a>
-            </div>
-          <li class="nav-item">
-            <a class="nav-link" href="nandshemispheres.html">North and South Hemispheres</a>
-          </li>
-        </nav>
-      </div>
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          </button>
+          <div
+            class = "collapse navbar-collapse"
+            id ="navbarNav">
+            <ul class = "navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="data.html">Data</a>
+              </li>
+              <li class="nav-item dropdown cote">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+                  <a class="nav-link" href="humidity.html">Humidity</a>
+                  <a class="nav-link" href="max_temperature.html">Max-Temperature</a>
+                  <a class="nav-link" href="wind_speed.html">Wind-Speed</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparisons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nandshemispheres.html">North and South Hemispheres</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </div>
   </div>
-  
   <div class="container">
     <div class="box">
       <h3 class="title">Cities Data</h3>
@@ -7170,11 +7193,11 @@
               <td>2.62</td>
             </tr>
           </tbody>
-
+<!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<!-- Footer -->
 <footer class = "footer">
   <div class ="container">
     <span>Copyright &copy; Andres Pulido 2022</span>

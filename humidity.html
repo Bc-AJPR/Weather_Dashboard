@@ -12,26 +12,48 @@
   <div class="row">
     <div class="col"> <!--Nav Bar-->
       <h3 class="text-center">Latitude Analysis Dashboard with Attitude</h3>
-      <nav class="nav nav-tabs fixed-nav-bar">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Humidity
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="nav-link" href="cloudiness.html">Cloudiness</a>
-              <a class="nav-link active" href="humidity.html">Humidity</a>
-              <a class="nav-link" href="max_temperature.html">Max-Temperature</a>
-              <a class="nav-link" href="wind_speed.html">Wind-Speed</a>
-            </div>
-          <li class="nav-item">
-            <a class="nav-link" href="nandshemispheres.html">North and South Hemispheres</a>
-          </li>
+      <nav class="nav nav-tabs fixed-nav-bar navbar-expand-sm">
+        <button
+        type="button"
+        data-toggle ="collapse"
+        data-target = "#navbarNav"
+        class = "navbar-toggler"
+        aria-controls = "navbarNav"
+        aria-expanded = "false"
+        aria-label = "Toggle navigation" >
+          <a class = "cote">
+           Menu
+          </a>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>  
+        <div
+          class = "collapse navbar-collapse"
+          id ="navbarNav">  
+          <ul class = "navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Humidity
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+                <a class="nav-link active" href="humidity.html">Humidity</a>
+                <a class="nav-link" href="max_temperature.html">Max-Temperature</a>
+                <a class="nav-link" href="wind_speed.html">Wind-Speed</a>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparisons</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="nandshemispheres.html">North and South Hemispheres</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       </div>
   </div>
@@ -44,9 +66,9 @@
         <h3 class="title">City Latitude Vs. Humidity</h3>
         <hr></hr>
         <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Humidity Graph">
-        <p>Xxxxxxxxxxxxxxxxxxxxx
-          Xxxxxxxxxxxxxxxxxxxxx
-          xxxxxxxxxxxxxxxxxxxxxxx.</p>
+        <p>This graph clearly shows that humidity is part of human lives; in this 500 cities
+          sample, the vast majority shows above 60% humidity. Also, there is a tendency of the
+          northern hemisphere cities to be below 80% humidity..</p>
       </div>
     </div>
   </div>
